@@ -5,7 +5,7 @@ import "./style.css";
 
 const CardSix = () => {
   return (
-    <div className="relative w-full md:w-[389px] h-[582px] ">
+    <div className="relative w-full xl:w-[389px] h-[582px] ">
       <div className="absolute inset-0 bg-gradient-to-t from-black via-BlueBackground to-white rounded-3xl px-8 py-6 flex flex-col justify-between">
         <div className="font-bold mt-10 ">
           <h1 className="text-2xl md:text-4xl">

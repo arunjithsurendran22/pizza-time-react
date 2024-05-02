@@ -25,12 +25,12 @@ import pen from "./assets/pen.png";
 import python from "./assets/python.png";
 import f from "./assets/f.png";
 
-import CardOne from "./components/CardOne";
-import CardTwo from "./components/CardTwo";
-import CardThree from "./components/CardThree";
-import CardFive from "./components/CardFive";
-import CardSix from "./components/CardSix";
-import CardSeven from "./components/CardSeven";
+import CardOne from "./cards/CardOne";
+import CardTwo from "./cards/CardTwo";
+import CardThree from "./cards/CardThree";
+import CardFive from "./cards/CardFive";
+import CardSix from "./cards/CardSix";
+import CardSeven from "./cards/CardSeven";
 function App() {
   return (
     <div>
@@ -39,7 +39,7 @@ function App() {
           <div className="bg-BlueBackground    h-4/6 md:h-3/4 pt-8 pl-4 pr-4 md:pl-0 md:pr-0 py-10 overflow-hidden">
             <div className="flex flex-col md:flex-row md:justify-between">
               <div className="w-full md:w-7/12 md:ml-10 h-auto md:h-48 p-5">
-                <h1 className="text-white text-2xl lg:text-5xl font-bold">
+                <h1 className="text-white text-2xl md:text-2xl xl:text-5xl font-bold">
                   hassle-free gateway to instant software deployment
                 </h1>
               </div>
@@ -49,7 +49,7 @@ function App() {
                 </h1>
               </div>
             </div>
-            <div className="w-full md:w-6/12 text-white bg-messageWoman rounded-3xl p-4 md:ml-10 md:mr-10 md:mb-0 mt-8 md:mt-0">
+            <div className=" text-white bg-messageWoman p-5 xl:w-6/12 rounded-3xl mx-5 mt-10">
               <p className="font-normal text-xs md:text-sm">
                 Say goodbye to the wait times and headaches of coordinating with
                 developers or grappling with technical intricacies. With cloudB,

@@ -49,7 +49,7 @@ function App() {
                 </h1>
               </div>
             </div>
-            <div className=" text-white bg-messageWoman p-5 xl:w-6/12 rounded-3xl mx-5 mt-10">
+            <div className=" text-white bg-messageWoman p-5 xl:w-6/12 rounded-3xl md:mx-16 mt-10">
               <p className="font-normal text-xs md:text-sm">
                 Say goodbye to the wait times and headaches of coordinating with
                 developers or grappling with technical intricacies. With cloudB,
